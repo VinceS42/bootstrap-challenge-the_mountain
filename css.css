@@ -1,0 +1,105 @@
+/****************************** HEADER ******************************/
+
+header {
+    background: url(/The_Mountain/bootstrap-challenge-the_mountain/images/bg_header.jpg);
+    
+    background-position: top;
+    background-size: cover;
+    height: 800px;
+}
+
+
+/****************************** NAV ******************************/
+
+
+.navbar {
+    color: #333331;
+}
+
+
+/****************************** H1 ******************************/
+
+
+.h1, .h2, .h3, .h4{
+    font-family: Rokkitt, sans-serif;
+    font-size: 50px;
+}
+
+#h1 {
+    margin-top: 50px;
+}
+
+
+/****************************** SVG ******************************/
+
+svg {
+    height: 100px;
+    width: 100px;;
+}
+
+/****************************** ID features ******************************/
+
+#features {
+    padding: 68px;
+}
+
+/****************************** ID ABOUT ******************************/
+
+#about {
+    background: url(/The_Mountain/bootstrap-challenge-the_mountain/images/bg_nuage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+
+}
+
+#background1 {
+    background-color: #45a6d68f;
+    background-size: cover;
+    color: white;
+    height: auto;
+    padding: 65px;
+}
+
+#box1 {
+    padding-top: 45px;
+    
+}
+
+
+/****************************** ID Blog ******************************/
+
+#blog img {
+    height: 75%;
+    width: 75%;
+    padding: 0;
+}
+
+
+/****************************** ID Blog ******************************/
+
+#history {
+    background: url(/The_Mountain/bootstrap-challenge-the_mountain/images/bg_appareil_photo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-right: 125px;
+
+}
+
+.box2 {
+    background-color: #45a6d68f;
+    background-size: cover;
+    color: white;
+    height: auto;
+}
+
+/****************************** ID PHOTOS ******************************/
+
+
+#photos img {
+    height: 100%;
+    width: 100%;
+    gap: 25px;
+    padding: 20px;
+}
