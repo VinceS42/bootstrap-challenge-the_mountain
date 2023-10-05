@@ -7,7 +7,9 @@
 
   <title>Mountain King</title>
 
-  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap" rel="stylesheet">
@@ -16,16 +18,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
 
+
   <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="css.css" />
+  <link rel="stylesheet" href="/css/css.css" />
 </head>
 
 <body>
   <header id="home">
     <nav class="navbar navbar-dark bg-dark bg-transparent">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="/The_Mountain/bootstrap-challenge-the_mountain/images/your_logo.png"
-            alt="your_logo" /></a>
+        <a class="navbar-brand" href="#"><img src="/images/your_logo.png" alt="your_logo" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
           aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -61,58 +63,58 @@
         </div>
       </div>
     </nav>
-    <div id="h1" class="container d-flex flex-column">
-      <p class="h1 text-light col align-self-center text-center col-4">
+    <div class="content vh-100 p-5 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="d-flex flex-column align-items-center p-5 text-white text-center">
         In the hall of the <span>Mountain King</span>
-      </p>
-      <p class="text-light col align-self-center text-center col-5 my-4">
-        This is simple hero unit, a simple jumbotron-style component for
+      </h1>
+      <p class="text-light text-center my-4">
+        This is a simple hero unit, a simple jumbotron-style component for
         calling extra attention to featured content or information.
       </p>
+      <div class="d-flex flex-wrap justify-content-center">
+        <div class="mb-3 p-2 me-lg-3">
+          <button type="button" class="btn btn-primary btn-lg">Learn more</button>
+        </div>
+        <div class="mb-3 p-2 me-lg-3">
+          <button type="button" class="btn btn-secondary btn-lg">Download</button>
+        </div>
+      </div>
     </div>
-    <div class="col align-self-center text-center mt-4">
-      <button type="button" class="btn btn-primary btn-lg">Learn more</button>
-      <button type="button" class="btn btn-secondary btn-lg">Download</button>
-    </div>
+
+
   </header>
 
   <main>
-    <section id="features" class="container">
-      <div class="row text-center">
-        <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
-          <div class="col">
-            <div class="div_svg">
-              <i>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                  <path
-                    d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z" />
-                </svg>
-              </i>
-            </div>
-            <p class="h2">Consectur Risus</p>
-            <article>
-              Cras justo odio, dapibus as facilisis in, egestas eget quam.
-              Donec id elit non mi porta gravida at eget metus. ullam id dolor
-              id nibh ultricies vehicula ut id elit
-            </article>
-          </div>
-          <div class="col">
-            <p class="h2">Ultricies Aenean</p>
-            <article>
-              Crast justo odio, dapius ac facilisis in, egestas eget quam.
-              Integer posuere erat a ante venenatis dapidus posuere velit
-              aliquet. Donec ullamcorper nulla non metus auctor fringilla.
-            </article>
-          </div>
-          <div class="col">
-            <p class="h2">Cras Sollicitudin</p>
-            <article>
-              Etiam porta sem malesuada magna mollis euismod. Aenean eu leo
-              quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-              Maecenas faucibus mollis interdum
-            </article>
-          </div>
+    <section id="features" class="container-lg p-4">
+      <div class="row">
+        <div class="col d-flex flex-column align-items-center">
+          <i class="fa-solid fa-pencil fa-2x"></i>
+          <h4>Consectur Risus</h4>
+          <article class="text-center">
+            Cras justo odio, dapibus as facilisis in, egestas eget quam.
+            Donec id elit non mi porta gravida at eget metus. ullam id dolor
+            id nibh ultricies vehicula ut id elit
+          </article>
         </div>
+        <div class="col d-flex flex-column align-items-center">
+          <i class="fa-solid fa-camera fa-2x"></i>
+          <h4>Ultricies Aenean</h4>
+          <article class="text-center">
+            Crast justo odio, dapius ac facilisis in, egestas eget quam.
+            Integer posuere erat a ante venenatis dapidus posuere velit
+            aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+          </article>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <i class="fa-solid fa-bookmark fa-2x"></i>
+          <h4>Cras Sollicitudin</h4>
+          <article class="text-center">
+            Etiam porta sem malesuada magna mollis euismod. Aenean eu leo
+            quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+            Maecenas faucibus mollis interdum
+          </article>
+        </div>
+      </div>
       </div>
     </section>
     <section id="about">
@@ -158,8 +160,7 @@
             <button type="button" class="btn btn-secondary btn-lg">Take a Look </button>
           </div>
           <div class="col d-flex justify-content-end">
-            <img src="/The_Mountain/bootstrap-challenge-the_mountain/images/1200.jpeg"
-              class=" img-fluid rounded mx-auto d-block alt=" 1200">
+            <img src="/images/1200.jpeg" class=" img-fluid rounded mx-auto d-block alt=" 1200">
           </div>
         </div>
       </div>
@@ -185,36 +186,56 @@
       </div>
     </section>
     <section id="photos">
-      <div class="container text-center d-flex flex-row">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <div class="photos">
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-12 col-sm-12"><img src="/The_Mountain/bootstrap-challenge-the_mountain/images/300.jpeg"
-                  alt=""></div>
-            </div>
-            <div class="row">
-              <div class="col-6 col-sm"><img src="/The_Mountain/bootstrap-challenge-the_mountain/images/800.jpeg"
-                  alt=""></div>
-              <div class="row">
-                <div class="col-6 col-sm"><img src="/The_Mountain/bootstrap-challenge-the_mountain/images/400.jpeg"
-                    alt=""></div>
-                <div class="col-6 col-sm"><img src="/The_Mountain/bootstrap-challenge-the_mountain/images/400.jpeg"
-                    alt=""></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm">col-sm</div>
-            </div>
-            <div class="row">
-              <div class="col-sm">col-sm</div>
+      <div class="container-lg">
+        <div class="container_mos">
+          <div class="haut-p"><img src="/images/300.jpeg" alt="haut_parleur"></div>
+          <div class="volcancarac">
+            <div class="sub_container">
+              <div class="Volcano"><img src="/images/776.jpeg" alt="Volcan"></div>
+              <div class="carcassejeaiou-dhzaui-hdpuiazh-"><img src="/images/439.jpeg" alt="Carecasse"></div>
             </div>
           </div>
+          <div class="trio">
+            <div class="main_container">
+              <div class="pont"><img src="/images/800.jpeg" alt="Pont"></div>
+              <div class="couche"><img src="/images/400.jpeg" alt="Coucher_de_soleil">
+              </div>
+              <div class="appareil-ph"><img src="/images/2476.jpeg" alt="appareil_photo"></div>
+            </div>
+          </div>
+          <div class="motel"><img src="/images/140.jpeg" alt=""></div>
         </div>
-
-      </div>
       </div>
     </section>
+    <section id="partenaires">
+      <div class="container text-center">
+        <div class="row flex-wrap justify-content-center">
+          <div class="col-6 col-md-2">
+            <a href=""><img src="/images/logo-sample-01.jpg" alt="logo-sample-01" class="w-100 h-100"></a>
+          </div>
+          <div class="col-6 col-md-2">
+            <a href=""><img src="/images/logo-sample-02.jpg" alt="logo-sample-02" class="w-100 h-100"></a>
+          </div>
+          <div class="col-6 col-md-2">
+            <a href=""><img src="/images/logo-sample-03.png" alt="logo-sample-03" class="w-100 h-100"></a>
+          </div>
+          <div class="col-6 col-md-2">
+            <a href=""><img src="/images/logo-sample-04.jpg" alt="logo-sample-04" class="w-100 h-100"></a>
+          </div>
+          <div class="col-6 col-md-2">
+            <a href=""><img src="/images/logo-sample-05.jpg" alt="logo-sample-05" class="w-100 h-100"></a>
+          </div>
+          <div class="col-6 col-md-2">
+            <a href=""><img src="/images/logo-sample-06.png" alt="logo-sample-06" class="w-100 h-100"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
   </main>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -222,10 +243,43 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
     integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
     crossorigin="anonymous"></script>
-
+  <section id="contact">
+    <div class="background_contact">
+      <div class="container d-flex">
+        <div class="row">
+          <div class class="col-12">
+            <h3 class="m-5 text-white text-break .align-baseline col-8">Lorem ipsum dolor sit amet, consectetur
+              adipisicing
+              elit. Dolorem, neque error.</h3>
+            <p class="m-5 text-white fs-4 text-break .align-baseline col-8">Lorem ipsum dolor sit amet, consectetur
+              adipisicing
+              elit. Eius quidem aperiam mollitia quibusdam, non soluta
+              unde quod porro veniam nulla aut consequuntur, maxime aliquam dolorum dolores ducimus ipsum ea sapiente
+              assumenda delectus! Qui molestiae quam nemo?</p>
+            <form action="" method="get" class="mt-5 ms-5">
+              <input type="email" placeholder="Your Email Here...">
+            </form>
+            <button type="button" class="btn btn-secondary btn-lg m-5">Large button</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <footer>
-dazdazddaz
+    <div class="container row">
+      <div>
+        <h2 class="text-white m-5">Your Logo</h2>
+        <span class="text-white m-5 ">© 2016 Your Company Designed and Developed by <span class="">The Maitre jet
+            d'ail</span></span>
+      </div>
+    </div>
+    <div>
+      <div>
+
+      </div>
+    </div>
   </footer>
+  </section>
 </body>
 
 </html>

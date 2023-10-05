@@ -1,0 +1,218 @@
+/****************************** HEADER ******************************/
+
+header {
+    background: url(/images/bg_header.jpg);
+    
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/****************************** NAV ******************************/
+
+
+.navbar {
+    color: #333331;
+}
+
+.navbar-brand img {
+    height: 50px; /* Modifiez la taille en fonction de vos besoins */
+    
+}
+
+
+/****************************** H1 ******************************/
+
+
+.h1, .h2, .h3, .h4{
+    font-family: Rokkitt, sans-serif;
+    font-size: 50px;
+}
+
+h1 > span {
+    font-family: "rokkitt";
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+/****************************** SVG ******************************/
+
+svg {
+    height: 100px;
+    width: 100px;;
+}
+
+/****************************** ID features ******************************/
+
+#features {
+    padding: 68px;
+}
+
+/****************************** ID ABOUT ******************************/
+
+#about {
+    background: url(/images/bg_nuage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+
+}
+
+#background1 {
+    background-color: #45a6d68f;
+    background-size: cover;
+    color: white;
+    height: auto;
+    padding: 65px;
+}
+
+#box1 {
+    padding-top: 45px;
+    
+}
+
+
+/****************************** ID Blog ******************************/
+
+#blog img {
+    height: 75%;
+    width: 75%;
+    padding: 0;
+}
+
+
+/****************************** ID Blog ******************************/
+
+#history {
+    background: url(/images/bg_appareil_photo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-right: 125px;
+
+}
+
+.box2 {
+    background-color: #45a6d68f;
+    background-size: cover;
+    color: white;
+    height: auto;
+}
+
+/****************************** ID PHOTOS ******************************/
+
+
+.container_mos {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "haut-p haut-p volcancarac"
+        "trio trio volcancarac"
+        "motel motel volcancarac";
+}
+
+.haut-p {
+    grid-area: haut-p;
+}
+
+.volcancarac {
+    grid-area: volcancarac;
+}
+
+.trio {
+    grid-area: trio;
+}
+
+.motel {
+    grid-area: motel;
+}
+
+.main_container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "pont couche"
+        "pont appareil-ph";
+}
+
+.pont {
+    grid-area: pont;
+}
+
+.couche {
+    grid-area: couche;
+}
+
+.appareil-ph {
+    grid-area: appareil-ph;
+}
+
+.sub_container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Volcano {
+    flex: 1;
+    grid-area: Volcano;
+}
+
+.carcassejeaiou-dhzaui-hdpuiazh- {
+    grid-area: carcassejeaiou-dhzaui-hdpuiazh-;
+}
+
+.container_mos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 680px) {
+    .container_mos {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .main_container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/****************************** ID Blog ******************************/
+
+
+/****************************** ID CONTACT ******************************/
+
+#contact {
+    background: url(./images/bg_newsletter.jpg);
+    background-position: top;
+    background-size: c;
+    height: auto;
+}
+
+/****************************** ID FOOTER ******************************/
+
+
+footer {
+    background-color: #24323b;
+}
+
+.background_contact {
+    background-color: #24323b94;
+}
